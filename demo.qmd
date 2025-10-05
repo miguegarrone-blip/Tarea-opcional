@@ -1,0 +1,70 @@
+---
+title: "Tarea opcional"
+author: "Miguel"
+format: html
+editor: visual
+subtitle: "Crear un archivo Quarto"
+date: today
+toc: TRUE
+self-contained: TRUE
+lightbox: TRUE
+format: gfm
+---
+
+## Figura creada con código de R.
+```{r}
+1 + 2
+```
+
+## Figura a partir de un archivo de imagen externo.
+![Universidad Austral Sede Rosario](img/02/austral.jpg){fig-align="center" width=50%}
+
+![Trucos de escrituras]https://campusvirtual.austral.edu.ar/pluginfile.php/3724024/mod_resource/content/1/img/02/formatotxt.png
+<!-- no se como copiar la direccion de una imagen, la parte entre corchetes no me la reconoce. Copie el mismo ejemplo del profe -->
+
+## Texto con sintaxis Markdown (negrita y cursiva).
+
+Para hacer negrita hay que poner entre ** las palabras, **negrita**
+Para hacer cursiva hay que poner entre * las palabras, *cursiva*
+
+## Escritura matemática.
+
+$$\sum_{i=1}^{N} (x_i-\mu)^2$$
+
+## Listas.
+
+* Preguntar al profe porque no me sale traer una imagen externa
+* No se como copiar el vinculo de una imagen
+
+## Tabla creada con sintaxis Markdown.
+
+| grupo | valor  |
+|-------|--------|
+| A     | 2.05   |
+| B     | 1.37   |
+| C     | 3.09   |
+
+: Valor por grupo {.striped .hover}
+
+## Tabla creada con código de R.
+
+Me falta esta parte.
+En el ejemplo del profe muestra una varibale resultados, nosotros de donde traeriamos las cosas?
+
+## Bloques de código ocultos y visibles.
+
+<!-- Código oculto -->
+```{r}
+#| echo: false
+1 + 1
+```
+
+
+<!-- Código visible -->
+```{r}
+1 + 1
+```
+
+
+
+
